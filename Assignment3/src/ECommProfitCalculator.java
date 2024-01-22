@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class ECommProfitCalculator {
     public static void main(String[] args) {
-        loadOrdersAndCompute("Input/customer_orders.csv");
+        loadOrdersAndCompute("Assignment3/Input/customer_orders.csv");
         calculateFinancialMetrics();
         generateReports();
     }

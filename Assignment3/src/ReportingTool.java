@@ -75,7 +75,7 @@ public class ReportingTool extends Thread {
     }
 
     private static void saveToFile(String reportName, String content) {
-        try (FileWriter writer = new FileWriter("report/" +reportName + " Report.txt")) {
+        try (FileWriter writer = new FileWriter("Assignment3/report/" +reportName + " Report.txt")) {
             writer.write(content);
         } catch (IOException e) {
             System.out.println(e.getMessage());
