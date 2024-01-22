@@ -1,0 +1,8 @@
+Total Profit per Shirt Size:
+XS: €3720
+S: €3100
+M: €3041
+L: €2886
+XL: €2973
+2XL: €3236
+3XL: €3246
